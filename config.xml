@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget xmlns ="http://www.w3.org/ns/widgwts"
-xmlns:gap="http://phonegap.com/ns/1.0"
-id="com.phonegap.example2R"
+<widget xmlns ="http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id="com.phonegap.example2r"
 version="1.0.0">
 	
 <name>app2R LOS ANIMALES Y SU CLACIFICACION CBTis NO.16</name>
 
 <description>
-	Aplicacion que muestra informacion acerca de la clacificacion de los animales 
-</description>
+	Aplicacion que muestra informacion acerca de la clacificacion de los animales
 
 <author href="http://build.phonegap.com" email="elguea61@gmail.com">
 	Paola Constanza Elguea Perez
@@ -21,26 +20,24 @@ version="1.0.0">
 <preference name="orientation" value="landscape"/>-->
 <preference name="target-device" value="universal"/>
 <preference name="fullscreen" value="true"/>
-<preference name="android-installLocation" value="autor"/> 
+<preference name="android-installLocation" value="auto"/> 
 <preference name="permissions" value="INTERNET"/> 
 
 <!--plugins-->
 <!--Core plugins-->
-<plugin name="cordova-plugin-device"spec="~1.1.4"/> 
-<plugin name="cordova-plugin-vibration"spec="~2.1.3"/> 
-<pluging name="cordova-plugin-dialogs"spec="~1.3.1"/> 
+<plugin name="cordova-plugin-device" spec="~1.1.4"/> 
+<plugin name="cordova-plugin-vibration" spec="~2.1.3"/> 
+<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/> 
 
 <!--<plugin name="cordova-plugin-geolocation"source="npm"/>-->
 <!--Third part plugins-->
-
 <!--Para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
-
-<!--Colocaricono app-->
+<!--Colocar icono app-->
 
 <icon src="res/android/mdpi.png"/> 
 
