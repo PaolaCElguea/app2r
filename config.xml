@@ -5,12 +5,13 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id="com.phonegap.example2r"
 version="1.0.0">
 	
-<name>app2R LOS ANIMALES Y SU CLACIFICACION CBTis NO.16</name>
+<name>app2r LOS ANIMALES Y SU CLASIFICACION</name>
 
 <description>
-	Aplicacion que muestra informacion acerca de la clacificacion de los animales
+	APLICACION QUE MUESTRA INFORMACION SOBRE LOS ANIMALES DE ACUERDO A SU CLASIFICACION
+</description>
 
-<author href="http://build.phonegap.com" email="elguea61@gmail.com">
+<author href="https://build.phonegap.com" email="elguea61@gmail.com">
 	Paola Constanza Elguea Perez
 </author>
 
