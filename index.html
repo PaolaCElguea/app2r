@@ -1,0 +1,438 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DGTI</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app1r.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+
+<style>
+#b1
+{float:right;}
+#b2
+{ float:right;}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Programacion (1).jpg','imagenes/compeprog.jpg','imagenes/compemecaind.jpg','imagenes/compeelectrI.JPG','imagenes/compelogis.jpg','imagenes/ANIMALESR.png','imagenes/animalesmr.jpg','imagenes/leonesr.jpg','imagenes/pandasr.jpg','imagenes/venadosr.jpg','imagenes/caballosr.jpg','imagenes/caballitosmr.png','imagenes/ballenasr.jpg','imagenes/cangrejosr.png','imagenes/pulposr.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>LOS ANIMALES Y SU CLASIFICACION</h1>
+ </div>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/animalesz.jpg" alt="" title="" id="wows3_0"/></li>
+		<li><img src="data3/images/animalesp.jpg" alt="" title="" id="wows3_1"/></li>
+		<li><img src="data3/images/animalesp2.jpg" alt="" title="" id="wows3_2"/></li>
+		<li><img src="data3/images/animalesp1.jpg" alt="" title="" id="wows3_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/animam1.jpg" alt="wowslider.com" title="" id="wows3_4"/></a></li>
+		<li><img src="data3/images/animam.jpg" alt="" title="" id="wows3_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data3/tooltips/animalesz.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/animalesp.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/animalesp2.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/animalesp1.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/animam1.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/animam.jpg" alt=""/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   <div data-role="main" class="ui-content" align="center">
+
+  <div style="width:100%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>TERRESTRES</h2>
+   </a>
+   </li>
+   <br>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>GALERIA</h2>
+   </a>
+   </li>
+   <br>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>ACUATICOS</h2>
+   </a>
+   </li>
+   <br>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>GALERIA</h2>
+   </a>
+   </li>
+   </ul>
+   </div>
+   <br>
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>DESARROLLADOR</h1>
+    <div>
+   PAOLA CONSTANZA ELGUEA PEREZ<br>
+   PROGRAMACION<br>
+   RECURSAMIENTO 2017<br>
+   elguea61@gmail.com<br>
+   FUNCIONALIDAD<br>
+   VISUALIZAR LA CLACIFICACION DE LOS ANIMALES<br> 
+   LIC.JOSE ANTONIO GOMEZ HERNANDEZ
+    </div>
+    <div style="width:60%;">
+    <div id="b1">
+    <a href="https://damcbtis16.milaulas.com/"class="ui-btn ui-btn-corner-all ui-btn-inline"data-theme="a">
+    DAM</a>
+    <div id="b2">
+    <a href="https://www.facebook.com/secilia.youns"class="ui-btn ui-btn-corner-all ui-btn-inline"data-theme="a">
+    FACEBOOK</a>
+    </div>
+   </div>
+   </div> 
+ </div>
+ <div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://www.mundoprimaria.com/juegos-de-granjas/" data-role="button" >
+  <h2>JUGUEMOS!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+<div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://www.mundoprimaria.com/juego-de-pinguinos/" data-role="button" >
+  <h2>JUGUEMOS!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+ <!-- Pagina 2 -->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>TERRESTRES</h1>
+ </div>
+ 
+<div>
+   <h2>ANIMALES TERRESTRES<br>
+DESCRIPCIÓN: Los animales terrestres son aquellos que tienen como medio ambiente de vida la tierra firme.<br>
+ Vale decir, nacen, crecen, se desarrollan, se reproducen y mueren en ella. No poseen capacidad de volar<br> 
+como tampoco de vivir bajo el agua. Su reproducción puede ser vivípara (por crías vivas) como ovípara <br>
+(mediante huevos). Según las distintas especies, su alimentación puede ser mediante carne (carnívoros),<br>
+ hierbas (hervíboros) u omnívoro (que comen  todo tipo de alimentos).</h2>
+ <br>
+ <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA UN EJEMPLO</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/ANIMALESR.png',1)"><img src="imagenes/ANIMALES.jpg" alt="" width="270" height="270" id="Image9"></a> 
+  </div>
+  </div>
+ <div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.youtube.com/watch?v=-VnTx5FmFTY" data-role="button" >
+  <h2>VE UN VIDEO!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+<div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.lifeder.com/animales-terrestres/" data-role="button" >
+  <h2>APRENDAMOS MAS!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+ <!-- Pagina 3 -->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>GALERIA</h1>
+    </div>
+    
+  <img src="imagenes/caballo.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/caballosr.jpg',1)"><img src="imagenes/caballor.jpg" alt="" width="564" height="611" id="Image15"></a> 
+  </div>
+  
+   <img src="imagenes/leones.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOMOS!!</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/leonesr.jpg',1)"><img src="imagenes/leonr.jpg" alt="" width="640" height="428" id="Image10"></a>
+   </div>
+   
+   <img src="imagenes/panda.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/pandasr.jpg',1)"><img src="imagenes/pandar.jpg" alt="" width="550" height="413" id="Image12"></a> 
+  </div>
+  
+   <img src="imagenes/venado.png" width="56" height="46">
+   
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/venadosr.jpg',1)"><img src="imagenes/venador.jpg" alt="" width="800" height="600" id="Image14"></a> 
+ </div>
+ 
+  <center>
+  OTROS ANIMALES!
+  </center>
+  
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/jirafa.png" alt="jirafa" title="jirafa" id="wows1_0"/></li>
+		<li><img src="data1/images/jirafar.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/tigre.png" alt="tigre" title="tigre" id="wows1_2"/></li>
+		<li><img src="data1/images/tigrer.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/cochino.jpg" alt="cochino" title="cochino" id="wows1_4"/></li>
+		<li><img src="data1/images/cochinitor.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/mono.png" alt="wowslideshow" title="mono" id="wows1_6"/></a></li>
+		<li><img src="data1/images/mono_0.jpg" alt="" title="" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="jirafa"><span><img src="data1/tooltips/jirafa.png" alt="jirafa"/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/jirafar.jpg" alt=""/>2</span></a>
+		<a href="#" title="tigre"><span><img src="data1/tooltips/tigre.png" alt="tigre"/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/tigrer.jpg" alt=""/>4</span></a>
+		<a href="#" title="cochino"><span><img src="data1/tooltips/cochino.jpg" alt="cochino"/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cochinitor.jpg" alt=""/>6</span></a>
+		<a href="#" title="mono"><span><img src="data1/tooltips/mono.png" alt="mono"/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/mono_0.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ 
+<div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://animalia-terrestre.blogspot.mx/p/animales-terrestre.html" data-role="button" >
+  <h2>APRENDAMOS MAS!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+ <!-- Pagina 4 -->
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>ACUATICOS</h1>
+    </div>
+    
+<div>
+    <h2>ANIMALES ACUÁTICOS.<br>
+DESCRIPCIÓN: Los animales acuáticos son aquellos que tienen como medio ambiente de vida <br>
+el agua, ya sea dulce (ríos, canales, lagos, etc.) o salada (mares, océanos, etc.). Fuera de este <br>
+medio ambiente no pueden sobrevivir. Por lo tanto, nacen, crecen, se desarrollan, se reproducen y<br> 
+mueren dentro del vital elemento. Podemos destacar como animales acuáticos, los siguientes: Peces, mariscos,<br> 
+crustáceos, algunos mamíferos, anfibios, etc.<br></h2>
+<div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA UN EJEMPLO</h1>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/animalesmr.jpg',1)"><img src="imagenes/animalesm.jpg" alt="" width="270" height="270" id="Image8"></a> 
+</div>
+</div>
+<div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.youtube.com/watch?v=jXR1dNEU7QY" data-role="button" >
+  <h2>VE UN VIDEO!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+<div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://animalesacuaticos.org/" data-role="button" >
+  <h2>APRENDAMOS MAS!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+ <!-- Pagina 5 -->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>GALERIA</h1>
+</div>
+
+ <img src="imagenes/caballitom.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/caballitosmr.png',1)"><img src="imagenes/caballitomr.png" alt="" width="800" height="534" id="Image33"></a> 
+  </div>
+
+ <img src="imagenes/ballena.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/ballenasr.jpg',1)"><img src="imagenes/ballenar.jpg" alt="" width="1600" height="534" id="Image35"></a> 
+  </div>
+  
+   <img src="imagenes/cangrejo.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/cangrejosr.png',1)"><img src="imagenes/cangrejor.jpg" alt="" width="800" height="519" id="Image37"></a> 
+ </div>
+
+ <img src="imagenes/pulpo.png" width="56" height="46">
+    
+  <div data-role="collapsible" data-content-theme="false">
+ <h1>MIRA COMO SOY!!</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','imagenes/pulposr.jpg',1)"><img src="imagenes/pulpor.jpg" alt="" width="650" height="345" id="Image39"></a> 
+  </div>
+
+<center>
+OTROS ANIMALES!!
+</center>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/pez.png" alt="pez" title="pez" id="wows2_0"/></li>
+		<li><img src="data2/images/pezr.jpg" alt="" title="" id="wows2_1"/></li>
+		<li><img src="data2/images/hipo.png" alt="hipopotamo" title="hipopotamo" id="wows2_2"/></li>
+		<li><img src="data2/images/hipor.jpg" alt="" title="" id="wows2_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/tortuga.jpg" alt="http://wowslider.com/" title="tortuga" id="wows2_4"/></a></li>
+		<li><img src="data2/images/tortugar.jpg" alt="" title="" id="wows2_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="pez"><span><img src="data2/tooltips/pez.png" alt="pez"/>1</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/pezr.jpg" alt=""/>2</span></a>
+		<a href="#" title="hipopotamo"><span><img src="data2/tooltips/hipo.png" alt="hipopotamo"/>3</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/hipor.jpg" alt=""/>4</span></a>
+		<a href="#" title="tortuga"><span><img src="data2/tooltips/tortuga.jpg" alt="tortuga"/>5</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/tortugar.jpg" alt=""/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div  class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://sites.google.com/site/elbloginteractivo/exploracion-de-la-naturaleza/animales-acuaticos" data-role="button" >
+  <h2>APRENDAMOS MAS!!</h2>
+  </a>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+</body>
+</html>
+
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+ 
